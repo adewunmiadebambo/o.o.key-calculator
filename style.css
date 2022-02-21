@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: Arial;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+form {
+    display: flex;
+    width: 30%;
+    height: 50px;
+    box-shadow: 0 0 15px #ddd;
+    
+}
+
+form input {
+    flex: 1;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+form button {
+    width: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(49, 21, 21);
+    color: #fff;
+    font-size: 20px;
+}
+
+h2 {
+    color: mediumblue;
+    text-transform: uppercase;
+}
